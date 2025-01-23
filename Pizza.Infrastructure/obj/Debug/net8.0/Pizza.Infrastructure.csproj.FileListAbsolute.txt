@@ -15,3 +15,6 @@ C:\Users\wula\RiderProjects\Pizza\Pizza.Infrastructure\obj\Debug\net8.0\ref\Pizz
 C:\Users\wula\RiderProjects\Pizza\Pizza.Infrastructure\bin\Debug\net8.0\Pizza.Domain.dll
 C:\Users\wula\RiderProjects\Pizza\Pizza.Infrastructure\bin\Debug\net8.0\Pizza.Domain.pdb
 C:\Users\wula\RiderProjects\Pizza\Pizza.Infrastructure\obj\Debug\net8.0\Pizza.In.F038F7E2.Up2Date
+C:\Users\wula\RiderProjects\Pizza\Pizza.Infrastructure\bin\Debug\net8.0\Pizza.Application.dll
+C:\Users\wula\RiderProjects\Pizza\Pizza.Infrastructure\bin\Debug\net8.0\Pizza.Application.pdb
+C:\Users\wula\RiderProjects\Pizza\Pizza.Infrastructure\obj\Debug\net8.0\Pizza.Infrastructure.sourcelink.json

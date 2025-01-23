@@ -174,3 +174,5 @@ C:\Users\wula\RiderProjects\Pizza\Pizza.Web\obj\Debug\net8.0\Pizza.Web.genruntim
 C:\Users\wula\RiderProjects\Pizza\Pizza.Web\obj\Debug\net8.0\ref\Pizza.Web.dll
 C:\Users\wula\RiderProjects\Pizza\Pizza.Web\bin\Debug\net8.0\Pizza.Infrastructure.dll
 C:\Users\wula\RiderProjects\Pizza\Pizza.Web\bin\Debug\net8.0\Pizza.Infrastructure.pdb
+C:\Users\wula\RiderProjects\Pizza\Pizza.Web\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\wula\RiderProjects\Pizza\Pizza.Web\obj\Debug\net8.0\Pizza.Web.sourcelink.json
