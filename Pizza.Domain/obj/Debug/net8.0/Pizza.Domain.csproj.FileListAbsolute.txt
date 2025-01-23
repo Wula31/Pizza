@@ -1,0 +1,11 @@
+C:\Users\wula\RiderProjects\Pizza\Pizza.Domain\bin\Debug\net8.0\Pizza.Domain.deps.json
+C:\Users\wula\RiderProjects\Pizza\Pizza.Domain\bin\Debug\net8.0\Pizza.Domain.dll
+C:\Users\wula\RiderProjects\Pizza\Pizza.Domain\bin\Debug\net8.0\Pizza.Domain.pdb
+C:\Users\wula\RiderProjects\Pizza\Pizza.Domain\obj\Debug\net8.0\Pizza.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wula\RiderProjects\Pizza\Pizza.Domain\obj\Debug\net8.0\Pizza.Domain.AssemblyInfoInputs.cache
+C:\Users\wula\RiderProjects\Pizza\Pizza.Domain\obj\Debug\net8.0\Pizza.Domain.AssemblyInfo.cs
+C:\Users\wula\RiderProjects\Pizza\Pizza.Domain\obj\Debug\net8.0\Pizza.Domain.csproj.CoreCompileInputs.cache
+C:\Users\wula\RiderProjects\Pizza\Pizza.Domain\obj\Debug\net8.0\Pizza.Domain.dll
+C:\Users\wula\RiderProjects\Pizza\Pizza.Domain\obj\Debug\net8.0\refint\Pizza.Domain.dll
+C:\Users\wula\RiderProjects\Pizza\Pizza.Domain\obj\Debug\net8.0\Pizza.Domain.pdb
+C:\Users\wula\RiderProjects\Pizza\Pizza.Domain\obj\Debug\net8.0\ref\Pizza.Domain.dll
