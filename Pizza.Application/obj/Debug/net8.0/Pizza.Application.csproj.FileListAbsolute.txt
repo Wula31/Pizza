@@ -9,3 +9,4 @@ C:\Users\wula\RiderProjects\Pizza\Pizza.Application\obj\Debug\net8.0\Pizza.Appli
 C:\Users\wula\RiderProjects\Pizza\Pizza.Application\obj\Debug\net8.0\refint\Pizza.Application.dll
 C:\Users\wula\RiderProjects\Pizza\Pizza.Application\obj\Debug\net8.0\Pizza.Application.pdb
 C:\Users\wula\RiderProjects\Pizza\Pizza.Application\obj\Debug\net8.0\ref\Pizza.Application.dll
+C:\Users\wula\RiderProjects\Pizza\Pizza.Application\obj\Debug\net8.0\Pizza.Application.sourcelink.json

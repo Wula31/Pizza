@@ -9,3 +9,8 @@ C:\Users\wula\RiderProjects\Pizza\Pizza.Domain\obj\Debug\net8.0\Pizza.Domain.dll
 C:\Users\wula\RiderProjects\Pizza\Pizza.Domain\obj\Debug\net8.0\refint\Pizza.Domain.dll
 C:\Users\wula\RiderProjects\Pizza\Pizza.Domain\obj\Debug\net8.0\Pizza.Domain.pdb
 C:\Users\wula\RiderProjects\Pizza\Pizza.Domain\obj\Debug\net8.0\ref\Pizza.Domain.dll
+C:\Users\wula\RiderProjects\Pizza\Pizza.Domain\bin\Debug\net8.0\Pizza.Application.dll
+C:\Users\wula\RiderProjects\Pizza\Pizza.Domain\bin\Debug\net8.0\Pizza.Application.pdb
+C:\Users\wula\RiderProjects\Pizza\Pizza.Domain\obj\Debug\net8.0\Pizza.Domain.csproj.AssemblyReference.cache
+C:\Users\wula\RiderProjects\Pizza\Pizza.Domain\obj\Debug\net8.0\Pizza.Domain.sourcelink.json
+C:\Users\wula\RiderProjects\Pizza\Pizza.Domain\obj\Debug\net8.0\Pizza.Do.A53E6C73.Up2Date

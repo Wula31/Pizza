@@ -1,6 +1,8 @@
 using System.Collections.Immutable;
 using Microsoft.EntityFrameworkCore;
+using Pizza.Application.Common.Interfaces;
 using Pizza.Infrastructure.Data;
+using Pizza.Infrastucture.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<ApplicationDbContext>(option =>
     option.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddScoped<IAllRepository, AllRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
