@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Pizza.Infrastucture.Data;
+using Pizza.Infrastructure.Data;
 
 #nullable disable
 
-namespace Pizza.Infrastucture.Migrations
+namespace Pizza.Infrastructure.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("20250123143140_pizza1")]

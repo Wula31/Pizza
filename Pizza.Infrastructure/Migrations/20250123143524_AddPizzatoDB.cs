@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace Pizza.Infrastucture.Migrations
+namespace Pizza.Infrastructure.Migrations
 {
     /// <inheritdoc />
     public partial class AddPizzatoDB : Migration

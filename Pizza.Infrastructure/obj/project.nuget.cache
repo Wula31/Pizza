@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "FtNEbd2v1yc=",
+  "dgSpecHash": "B0J/X93klhg=",
   "success": true,
   "projectFilePath": "C:\\Users\\wula\\RiderProjects\\Pizza\\Pizza.Infrastructure\\Pizza.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wula\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\wula\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
+    "C:\\Users\\wula\\.nuget\\packages\\fluentvalidation\\12.0.0-preview1\\fluentvalidation.12.0.0-preview1.nupkg.sha512",
     "C:\\Users\\wula\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\wula\\.nuget\\packages\\linqkit.core\\1.2.8\\linqkit.core.1.2.8.nupkg.sha512",
     "C:\\Users\\wula\\.nuget\\packages\\linqkit.microsoft.entityframeworkcore\\9.0.8\\linqkit.microsoft.entityframeworkcore.9.0.8.nupkg.sha512",

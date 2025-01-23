@@ -3,7 +3,7 @@
     namespace Pizza.Domain.Entities;
 
 
-    public abstract class BaseEntity : IEntity
+    public abstract class BaseEntity
     {
         public int Id { get; set; } = 1;
         public bool IsDeleted { get; set; } = false;

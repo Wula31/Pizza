@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-namespace Pizza.Infrastucture.Data;
+namespace Pizza.Infrastructure.Data;
 
 using Domain.Entities;
 public class ApplicationDbContext : DbContext

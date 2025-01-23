@@ -1,6 +1,6 @@
 using System.Collections.Immutable;
 using Microsoft.EntityFrameworkCore;
-using Pizza.Infrastucture.Data;
+using Pizza.Infrastructure.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
