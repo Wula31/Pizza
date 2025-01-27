@@ -1,22 +1,19 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Pizza.Application.Common.Interfaces;
 using Pizza.Infrastructure.Data;
-
+using Pizza.Application.Common.Interfaces;
+using Pizza.Domain.Entities;
 namespace Pizza.Infrastucture.Repository;
 
-public class UserRepository(ApplicationDbContext context) : IUserRepository
+public class UserRepository(ApplicationDbContext context) : Repository<User>(context), IUserRepository
 {
-    public async Task<bool> UserExistsAsync(int userId)
+    public override async Task DeleteEntityAsync(int id)
     {
-        return await context
-            .Users.AnyAsync(u => 
-                u.Id == userId);
+        var entity = await GetEntityAsync(id);
+        entity.IsDeleted = true;
+        entity.Address = "Deleted";
+        entity.ModifiedOn = DateTime.UtcNow;
+        await context.SaveChangesAsync();
     }
 
-    public async Task<bool> UserMarkedDeletedAsync(int useId)
-    {
-        return await context
-            .Users.AnyAsync(u => 
-                u.Id == useId && u.IsDeleted);
-    }
+    
 }

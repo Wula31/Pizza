@@ -1,7 +1,7 @@
 ﻿namespace Pizza.Domain.Entities;
 
 public class Pizza : BaseEntity
-{
+{   
     public required string Name { get; set; }  
     public required decimal Price { get; set; }
     public int? ImageId { get; set; }

@@ -4,20 +4,10 @@ using Pizza.Infrastructure.Data;
 
 namespace Pizza.Infrastucture.Repository;
 
-public class PizzaRepository(ApplicationDbContext context) : IPizzaRepository
+public class PizzaRepository(ApplicationDbContext context) : Repository<Pizza.Domain.Entities.Pizza>(context), IPizzaRepository
 {
-    
-    public async Task<bool> PizzaExistsAsync(int pizzaId)
-    {
-        return await context
-            .Pizzas.AnyAsync(p =>
-                p.Id == pizzaId);
-    }
+    private readonly ApplicationDbContext _context = context;
 
-    public async Task<bool> PizzaMarkedDeletedAsync(int pizzaId)
-    {
-        return await context
-            .Pizzas.AnyAsync(p =>
-                p.Id == pizzaId && p.IsDeleted);
-    }
+    
+    
 }

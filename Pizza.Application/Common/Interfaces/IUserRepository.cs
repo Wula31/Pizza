@@ -1,8 +1,7 @@
-﻿namespace Pizza.Application.Common.Interfaces;
-
-public interface IUserRepository
-{
-    Task<bool> UserExistsAsync(int userId);
+﻿using Pizza.Domain.Entities;
+namespace Pizza.Application.Common.Interfaces;
     
-    Task<bool> UserMarkedDeletedAsync(int useId);
+public interface IUserRepository : IRepository<User>
+{
+
 }

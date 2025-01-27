@@ -11,8 +11,8 @@ public class AddressValidation: AbstractValidator<Address>
     public AddressValidation(IUserRepository userRepository)
     {
         RuleFor(x => x.UserId)
-            .MustAsync(async (userId,_) => await userRepository.UserExistsAsync(userId) 
-                                           && !await userRepository.UserMarkedDeletedAsync(userId))
+            .MustAsync(async (userId,_) => await userRepository.EntityExistsAsync(userId) 
+                                           && !await userRepository.EntityMarkedDeletedAsync(userId))
             .WithMessage("User does not exist or is marked deleted");
         RuleFor(x => x.City)
             .NotEmpty().WithMessage("City is required")

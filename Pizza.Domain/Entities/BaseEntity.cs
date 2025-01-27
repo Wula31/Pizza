@@ -1,6 +1,4 @@
-﻿    using Pizza.Application.Common.Interfaces;
-
-    namespace Pizza.Domain.Entities;
+﻿    namespace Pizza.Domain.Entities;
 
 
     public abstract class BaseEntity

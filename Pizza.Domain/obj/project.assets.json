@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {
-      "Pizza.Application/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/Pizza.Application.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Pizza.Application.dll": {}
-        }
-      }
-    }
+    "net8.0": {}
   },
-  "libraries": {
-    "Pizza.Application/1.0.0": {
-      "type": "project",
-      "path": "../Pizza.Application/Pizza.Application.csproj",
-      "msbuildProject": "../Pizza.Application/Pizza.Application.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net8.0": [
-      "Pizza.Application >= 1.0.0"
-    ]
+    "net8.0": []
   },
   "packageFolders": {
     "C:\\Users\\wula\\.nuget\\packages\\": {},
@@ -57,11 +38,7 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {
-            "C:\\Users\\wula\\RiderProjects\\Pizza\\Pizza.Application\\Pizza.Application.csproj": {
-              "projectPath": "C:\\Users\\wula\\RiderProjects\\Pizza\\Pizza.Application\\Pizza.Application.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

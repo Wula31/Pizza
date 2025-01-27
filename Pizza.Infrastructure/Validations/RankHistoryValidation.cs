@@ -9,12 +9,12 @@ public class RankHistoryValidation : AbstractValidator<RankHistory>
     public RankHistoryValidation(IUserRepository userRepository, IPizzaRepository pizzaRepository)
     {
         RuleFor(x => x.UserId)
-            .MustAsync(async (userId,_) => await userRepository.UserExistsAsync(userId)
-                                           && await userRepository.UserMarkedDeletedAsync(userId))
+            .MustAsync(async (userId,_) => await userRepository.EntityExistsAsync(userId)
+                                           && await userRepository.EntityMarkedDeletedAsync(userId))
             .WithMessage("User does not exist or is marked deleted");
         RuleFor(x => x.PizzaId)
-            .MustAsync(async (pizzaId,_) => await pizzaRepository.PizzaExistsAsync(pizzaId)
-                                           && await pizzaRepository.PizzaMarkedDeletedAsync(pizzaId))
+            .MustAsync(async (pizzaId,_) => await pizzaRepository.EntityExistsAsync(pizzaId)
+                                           && await pizzaRepository.EntityMarkedDeletedAsync(pizzaId))
             .WithMessage("Pizza does not exist or is marked deleted");
         RuleFor(x => x.Rank)
             .Must(rank => rank is > 0 and <= 10)

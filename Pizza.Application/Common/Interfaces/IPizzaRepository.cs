@@ -1,9 +1,7 @@
 ﻿namespace Pizza.Application.Common.Interfaces;
+using Domain.Entities;    
 
-public interface IPizzaRepository
+public interface IPizzaRepository : IRepository<Pizza>
 {
-    Task<bool> PizzaExistsAsync(int pizzaId);
-    
-    Task<bool> PizzaMarkedDeletedAsync(int pizzaId);
 
 };
