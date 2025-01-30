@@ -34,7 +34,7 @@ public class ApplicationDbContext : DbContext
         }
     }
     
-    public DbSet<Pizza> Pizzas { get; set; }
+    public DbSet<PizzaE> Pizzas { get; set; }
     public DbSet<Order> Orders { get; set; }
     public DbSet<Address> Addresses { get; set; }
     public DbSet<Image> Images { get; set; }

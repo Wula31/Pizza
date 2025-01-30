@@ -2,7 +2,7 @@
 using Domain.Entities;
 using FluentValidation;
 
-public class PizzaValidator : AbstractValidator<Pizza>
+public class PizzaValidator : AbstractValidator<PizzaE>
 {
     public PizzaValidator()
     {

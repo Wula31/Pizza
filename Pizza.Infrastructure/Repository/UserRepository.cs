@@ -9,11 +9,12 @@ public class UserRepository(ApplicationDbContext context) : Repository<User>(con
     public override async Task DeleteEntityAsync(int id)
     {
         var entity = await GetEntityAsync(id);
+        var address = await context.Addresses.FirstOrDefaultAsync(x => x.UserId == id);
         entity.IsDeleted = true;
         entity.Address = "Deleted";
+        address.IsDeleted = true;
+        address.ModifiedOn = DateTime.UtcNow;
         entity.ModifiedOn = DateTime.UtcNow;
         await context.SaveChangesAsync();
     }
-
-    
 }
