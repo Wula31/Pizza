@@ -1,0 +1,14 @@
+C:\Users\wula\RiderProjects\Pizza\Pizza.Infrastucture\bin\Debug\net8.0\Pizza.Infrastucture.deps.json
+C:\Users\wula\RiderProjects\Pizza\Pizza.Infrastucture\bin\Debug\net8.0\Pizza.Infrastucture.runtimeconfig.json
+C:\Users\wula\RiderProjects\Pizza\Pizza.Infrastucture\bin\Debug\net8.0\Pizza.Infrastucture.dll
+C:\Users\wula\RiderProjects\Pizza\Pizza.Infrastucture\bin\Debug\net8.0\Pizza.Infrastucture.pdb
+C:\Users\wula\RiderProjects\Pizza\Pizza.Infrastucture\obj\Debug\net8.0\Pizza.Infrastucture.csproj.AssemblyReference.cache
+C:\Users\wula\RiderProjects\Pizza\Pizza.Infrastucture\obj\Debug\net8.0\Pizza.Infrastucture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wula\RiderProjects\Pizza\Pizza.Infrastucture\obj\Debug\net8.0\Pizza.Infrastucture.AssemblyInfoInputs.cache
+C:\Users\wula\RiderProjects\Pizza\Pizza.Infrastucture\obj\Debug\net8.0\Pizza.Infrastucture.AssemblyInfo.cs
+C:\Users\wula\RiderProjects\Pizza\Pizza.Infrastucture\obj\Debug\net8.0\Pizza.Infrastucture.csproj.CoreCompileInputs.cache
+C:\Users\wula\RiderProjects\Pizza\Pizza.Infrastucture\obj\Debug\net8.0\Pizza.Infrastucture.dll
+C:\Users\wula\RiderProjects\Pizza\Pizza.Infrastucture\obj\Debug\net8.0\refint\Pizza.Infrastucture.dll
+C:\Users\wula\RiderProjects\Pizza\Pizza.Infrastucture\obj\Debug\net8.0\Pizza.Infrastucture.pdb
+C:\Users\wula\RiderProjects\Pizza\Pizza.Infrastucture\obj\Debug\net8.0\Pizza.Infrastucture.genruntimeconfig.cache
+C:\Users\wula\RiderProjects\Pizza\Pizza.Infrastucture\obj\Debug\net8.0\ref\Pizza.Infrastucture.dll

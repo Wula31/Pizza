@@ -1,0 +1,12 @@
+C:\Users\wula\RiderProjects\Pizza\Pizza.Application\bin\Debug\net8.0\Pizza.Application.deps.json
+C:\Users\wula\RiderProjects\Pizza\Pizza.Application\bin\Debug\net8.0\Pizza.Application.dll
+C:\Users\wula\RiderProjects\Pizza\Pizza.Application\bin\Debug\net8.0\Pizza.Application.pdb
+C:\Users\wula\RiderProjects\Pizza\Pizza.Application\obj\Debug\net8.0\Pizza.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wula\RiderProjects\Pizza\Pizza.Application\obj\Debug\net8.0\Pizza.Application.AssemblyInfoInputs.cache
+C:\Users\wula\RiderProjects\Pizza\Pizza.Application\obj\Debug\net8.0\Pizza.Application.AssemblyInfo.cs
+C:\Users\wula\RiderProjects\Pizza\Pizza.Application\obj\Debug\net8.0\Pizza.Application.csproj.CoreCompileInputs.cache
+C:\Users\wula\RiderProjects\Pizza\Pizza.Application\obj\Debug\net8.0\Pizza.Application.dll
+C:\Users\wula\RiderProjects\Pizza\Pizza.Application\obj\Debug\net8.0\refint\Pizza.Application.dll
+C:\Users\wula\RiderProjects\Pizza\Pizza.Application\obj\Debug\net8.0\Pizza.Application.pdb
+C:\Users\wula\RiderProjects\Pizza\Pizza.Application\obj\Debug\net8.0\ref\Pizza.Application.dll
+C:\Users\wula\RiderProjects\Pizza\Pizza.Application\obj\Debug\net8.0\Pizza.Application.sourcelink.json
