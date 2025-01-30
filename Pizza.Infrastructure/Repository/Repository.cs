@@ -11,7 +11,7 @@ public class Repository<T>(ApplicationDbContext context) : IRepository<T> where 
 {
     private readonly DbSet<T> DbSet = context.Set<T>();
 
-    async Task IRepository<T>.CreateEntityAsync(T entity)
+    public virtual async Task CreateEntityAsync(T entity)
     {
         await DbSet.AddAsync(entity);
         await context.SaveChangesAsync();

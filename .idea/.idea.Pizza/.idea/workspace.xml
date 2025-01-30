@@ -11,58 +11,26 @@
   <component name="ChangeListManager">
     <list default="true" id="13c24e10-0742-44aa-b413-ae1a8cf399f7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Pizza/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pizza/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pizza.Application/Common/Interfaces/IAllRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Application/Common/Interfaces/IAllRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pizza.Application/Common/Interfaces/IPizzaRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Application/Common/Interfaces/IPizzaRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pizza.Application/Common/Interfaces/IRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Application/Common/Interfaces/IRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pizza.Application/Common/Interfaces/IUserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Application/Common/Interfaces/IUserRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pizza.Application/Pizza.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Application/Pizza.Application.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pizza.Application/obj/Debug/net8.0/Pizza.Application.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Application/obj/Debug/net8.0/Pizza.Application.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pizza.Application/obj/Debug/net8.0/Pizza.Application.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Application/obj/Debug/net8.0/Pizza.Application.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pizza.Application/obj/Pizza.Application.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Application/obj/Pizza.Application.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pizza.Application/obj/Pizza.Application.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Application/obj/Pizza.Application.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pizza.Application/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Application/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pizza.Application/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Application/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pizza.Application/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Application/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pizza.Application/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Application/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pizza.Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Application/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pizza.Domain/Entities/BaseEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Domain/Entities/BaseEntity.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pizza.Domain/Entities/Order.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Domain/Entities/Order.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pizza.Domain/Entities/Pizza.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Domain/Entities/Pizza.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pizza.Domain/Entities/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Domain/Entities/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pizza.Domain/Pizza.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Domain/Pizza.Domain.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pizza.Domain/Entities/Pizza.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Domain/Entities/PizzaE.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pizza.Domain/obj/Debug/net8.0/Pizza.Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Domain/obj/Debug/net8.0/Pizza.Domain.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pizza.Domain/obj/Debug/net8.0/Pizza.Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Domain/obj/Debug/net8.0/Pizza.Domain.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pizza.Domain/obj/Debug/net8.0/Pizza.Domain.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pizza.Domain/obj/Pizza.Domain.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Domain/obj/Pizza.Domain.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pizza.Domain/obj/Pizza.Domain.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Domain/obj/Pizza.Domain.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pizza.Domain/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Domain/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pizza.Domain/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Domain/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pizza.Domain/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Domain/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pizza.Domain/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Domain/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pizza.Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Domain/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pizza.Infrastructure/Pizza.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Infrastructure/Pizza.Infrastructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pizza.Infrastructure/Data/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Infrastructure/Data/ApplicationDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pizza.Infrastructure/Repository/AllRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Infrastructure/Repository/AllRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pizza.Infrastructure/Repository/PizzaRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Infrastructure/Repository/PizzaRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pizza.Infrastructure/Repository/Repository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Infrastructure/Repository/Repository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pizza.Infrastructure/Repository/UserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Infrastructure/Repository/UserRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pizza.Infrastructure/Validations/AddressValidation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Infrastructure/Validations/AddressValidation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pizza.Infrastructure/Validations/PizzaValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Infrastructure/Validations/PizzaValidator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pizza.Infrastructure/obj/Debug/net8.0/Pizza.Infrastructure.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Infrastructure/obj/Debug/net8.0/Pizza.Infrastructure.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pizza.Infrastructure/obj/Debug/net8.0/Pizza.Infrastructure.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Infrastructure/obj/Debug/net8.0/Pizza.Infrastructure.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pizza.Infrastructure/obj/Debug/net8.0/Pizza.Infrastructure.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Infrastructure/obj/Debug/net8.0/Pizza.Infrastructure.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pizza.Infrastructure/obj/Debug/net8.0/Pizza.Infrastructure.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Infrastructure/obj/Debug/net8.0/Pizza.Infrastructure.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pizza.Infrastructure/obj/Pizza.Infrastructure.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Infrastructure/obj/Pizza.Infrastructure.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pizza.Infrastructure/obj/Pizza.Infrastructure.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Infrastructure/obj/Pizza.Infrastructure.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pizza.Infrastructure/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Infrastructure/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pizza.Infrastructure/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Infrastructure/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pizza.Infrastructure/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Infrastructure/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pizza.Infrastructure/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Infrastructure/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pizza.Infrastructure/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Infrastructure/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pizza.Web/obj/Debug/net8.0/Pizza.Web.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Web/obj/Debug/net8.0/Pizza.Web.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pizza.Web/obj/Debug/net8.0/Pizza.Web.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Web/obj/Debug/net8.0/Pizza.Web.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pizza.Web/obj/Pizza.Web.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Web/obj/Pizza.Web.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pizza.Web/obj/Pizza.Web.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Web/obj/Pizza.Web.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pizza.Web/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Web/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pizza.Web/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Web/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pizza.Web/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Web/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pizza.Web/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Pizza.Web/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +153,12 @@
       <workItem from="1737728653880" duration="2523000" />
       <workItem from="1737791108063" duration="2202000" />
       <workItem from="1737985297124" duration="3781000" />
-      <workItem from="1738002532512" duration="2376000" />
+      <workItem from="1738002532512" duration="2686000" />
+      <workItem from="1738084597524" duration="590000" />
+      <workItem from="1738227679766" duration="1827000" />
+      <workItem from="1738239080912" duration="1270000" />
+      <workItem from="1738254547182" duration="1840000" />
+      <workItem from="1738266071678" duration="700000" />
     </task>
     <task id="LOCAL-00001" summary="added new classesa">
       <option name="closed" value="true" />
@@ -211,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737674485944</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="updated repositories">
+      <option name="closed" value="true" />
+      <created>1738005209386</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1738005209386</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,7 +210,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="added new classes" />
     <MESSAGE value="added all validations" />
-    <option name="LAST_COMMIT_MESSAGE" value="added all validations" />
+    <MESSAGE value="updated repositories" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated repositories" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

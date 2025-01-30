@@ -1,9 +1,8 @@
 ﻿namespace Pizza.Domain.Entities;
 
-public class Order
+public class Order : BaseEntity
 {
-    public int Id { get; set; }
     public required int UserId { get; set; }
     public required int AddressId { get; set; }
-    public required List<Pizza> Pizzas { get; set; }
+    public required List<PizzaE> Pizzas { get; set; }
 }
