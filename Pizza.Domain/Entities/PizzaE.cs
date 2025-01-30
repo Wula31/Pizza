@@ -1,6 +1,6 @@
 ﻿namespace Pizza.Domain.Entities;
 
-public class Pizza : BaseEntity
+public class PizzaE : BaseEntity
 {   
     public required string Name { get; set; }  
     public required decimal Price { get; set; }
