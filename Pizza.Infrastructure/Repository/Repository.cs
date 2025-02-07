@@ -3,72 +3,45 @@ using Microsoft.EntityFrameworkCore;
 using Pizza.Application.Common.Interfaces;
 using Pizza.Domain.Entities;
 using Pizza.Infrastructure.Data;
+using Pizza.Infrastucture.Exceptions;
 
 namespace Pizza.Infrastucture.Repository;
 
 
 public class Repository<T>(ApplicationDbContext context) : IRepository<T> where T : BaseEntity
 {
-    private readonly DbSet<T> DbSet = context.Set<T>();
+    private readonly DbSet<T> _dbSet = context.Set<T>();
 
     public virtual async Task CreateEntityAsync(T entity)
     {
-        await DbSet.AddAsync(entity);
+        await _dbSet.AddAsync(entity);
         await context.SaveChangesAsync();
     }
-    public virtual async Task DeleteEntityAsync(int id)
+    public virtual async Task DeleteEntityAsync(Guid id)
     {
         var entity = await GetEntityAsync(id);
         entity.IsDeleted = true; 
         entity.ModifiedOn = DateTime.UtcNow;
         await context.SaveChangesAsync();
     }
-    public async Task<T> GetEntityAsync(int id)
+    public async Task<T> GetEntityAsync(Guid id)
     {
-        var entity = await DbSet.FindAsync(id);
+        var entity = await _dbSet.FindAsync(id);
         if (entity == null || entity.IsDeleted)
-            throw new KeyNotFoundException($"Entity of type {typeof(T).Name} with id {id} not found.");
+            throw new EntityNotFoundException($"Entity of type {typeof(T).Name} with id {id} not found.");
         return entity;
     }
-    async Task<IEnumerable<T>> IRepository<T>.GetAllEntitiesAsync()
+    public async Task<IEnumerable<T>> GetAllEntitiesAsync()
     {
-        return await DbSet.Where(x => !x.IsDeleted).ToListAsync();
+        return await _dbSet.Where(x => !x.IsDeleted).ToListAsync();
+    }
+    public Task<bool> EntityExistsAsync(Guid id)
+    {
+        return _dbSet.AnyAsync(p => p.Id.Equals(id) && !p.IsDeleted); 
     }
 
-    async Task IRepository<T>.UpdateEntityAsync(T entity)
+    public Task<bool> EntityMarkedDeletedAsync(Guid id)
     {
-        if(entity == null || entity.IsDeleted)
-            throw new KeyNotFoundException($"Entity of type {typeof(T).Name} with id {entity.Id} not found.");
-        DbSet.Update(entity);
-        await context.SaveChangesAsync();
-    }
-    
-    async Task IRepository<T>.UpdateFieldAsync(int id, object updates)
-    {
-        var entity = await GetEntityAsync(id);
-        var type = entity.GetType();
-        if(entity == null || entity.IsDeleted)
-            throw new KeyNotFoundException($"Entity of type {typeof(T).Name} with id {entity.Id} not found.");
-        foreach (var prop in updates.GetType().GetProperties())
-        {
-            var entityProp = type.GetProperty(prop.Name);
-            var newValues = prop.GetValue(updates);
-
-            if (entityProp != null && newValues != null && entityProp.CanWrite)
-                entityProp.SetValue(entity, newValues);
-        }
-        entity.ModifiedOn = DateTime.UtcNow;
-        await context.SaveChangesAsync();
-    }
-
-    public Task<bool> EntityExistsAsync(int Id)
-    {
-        
-        return DbSet.AnyAsync(p => p.Id == Id && !p.IsDeleted); 
-    }
-
-    public Task<bool> EntityMarkedDeletedAsync(int Id)
-    {
-        return DbSet.AnyAsync(p => p.Id == Id && p.IsDeleted);
+        return _dbSet.AnyAsync(p => p.Id.Equals(id) && p.IsDeleted);
     }
 }

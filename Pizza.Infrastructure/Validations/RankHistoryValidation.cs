@@ -8,6 +8,7 @@ public class RankHistoryValidation : AbstractValidator<RankHistory>
 {
     public RankHistoryValidation(IUserRepository userRepository, IPizzaRepository pizzaRepository)
     {
+        
         RuleFor(x => x.UserId)
             .MustAsync(async (userId,_) => await userRepository.EntityExistsAsync(userId)
                                            && await userRepository.EntityMarkedDeletedAsync(userId))

@@ -1071,14 +1071,14 @@
         }
       },
       "Pizza.Application/1.0.0": {
+        "dependencies": {
+          "Pizza.Domain": "1.0.0"
+        },
         "runtime": {
           "Pizza.Application.dll": {}
         }
       },
       "Pizza.Domain/1.0.0": {
-        "dependencies": {
-          "Pizza.Application": "1.0.0"
-        },
         "runtime": {
           "Pizza.Domain.dll": {}
         }
@@ -1088,6 +1088,7 @@
           "FluentValidation": "12.0.0-preview1",
           "LinqKit.Microsoft.EntityFrameworkCore": "9.0.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.1",
+          "Pizza.Application": "1.0.0",
           "Pizza.Domain": "1.0.0"
         },
         "runtime": {

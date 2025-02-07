@@ -2,7 +2,7 @@
 
 public class Image : BaseEntity
 {
-    public required string PizzaId { get; set; }
+    public required Guid PizzaId { get; set; }
     public required string OriginalName { get; set; }
-    public required string GeneratedName { get; set; }
+    public required string Path { get; set; }
 }

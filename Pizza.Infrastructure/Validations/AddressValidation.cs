@@ -10,6 +10,7 @@ public class AddressValidation: AbstractValidator<Address>
 
     public AddressValidation(IUserRepository userRepository)
     {
+        
         RuleFor(x => x.UserId)
             .MustAsync(async (userId,_) => await userRepository.EntityExistsAsync(userId) 
                                            && !await userRepository.EntityMarkedDeletedAsync(userId))

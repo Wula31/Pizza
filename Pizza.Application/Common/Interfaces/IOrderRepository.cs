@@ -3,7 +3,8 @@ using Pizza.Domain.Entities;
 
 namespace Pizza.Application.Common.Interfaces;
 
-public interface IOrderRepository : IRepository<Order>
+public interface IOrderRepository 
 {
-    Task CreateOrder(int UserId, int AddressId,List<string> Pizzas);
+    Task CreateOrderAsync(Guid userId, Guid addressId, List<string> pizzas);
+
 }

@@ -13,6 +13,7 @@
           "Microsoft.EntityFrameworkCore.Design": "9.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.1",
           "Microsoft.EntityFrameworkCore.Tools": "9.0.1",
+          "Pizza.Application": "1.0.0",
           "Pizza.Domain": "1.0.0"
         },
         "runtime": {
@@ -1070,14 +1071,14 @@
         }
       },
       "Pizza.Application/1.0.0": {
+        "dependencies": {
+          "Pizza.Domain": "1.0.0"
+        },
         "runtime": {
           "Pizza.Application.dll": {}
         }
       },
       "Pizza.Domain/1.0.0": {
-        "dependencies": {
-          "Pizza.Application": "1.0.0"
-        },
         "runtime": {
           "Pizza.Domain.dll": {}
         }

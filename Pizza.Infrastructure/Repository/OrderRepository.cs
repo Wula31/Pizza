@@ -1,29 +1,45 @@
-﻿using System.Net.Mime;
-using Microsoft.EntityFrameworkCore;
-using Pizza.Application.Common.Interfaces;
+﻿using Pizza.Application.Common.Interfaces;
 using Pizza.Domain.Entities;
 using Pizza.Infrastructure.Data;
+using Pizza.Infrastucture.Exceptions;
 
 namespace Pizza.Infrastucture.Repository;
 
-public class OrderRepository : Repository<Order>, IOrderRepository
+public class OrderRepository(
+    ApplicationDbContext context,
+    IUserRepository userRepository,
+    IPizzaRepository pizzaRepository,
+    IAddressRepository addressRepository)
+    : IOrderRepository
 {
-    
-    private readonly ApplicationDbContext context;
-    private readonly IUserRepository userRepository;
-    private readonly IPizzaRepository pizzaRepository;
-    private readonly IAddressRepository addressRepository;
-    
-    public OrderRepository(ApplicationDbContext _context, IUserRepository _userRepository, IPizzaRepository _pizzaRepository, IAddressRepository _addressRepository): base(_context)
+    public async Task CreateOrderAsync(Guid userId, Guid addressId, List<string> pizzas)
     {
-        context = _context;
-        userRepository = _userRepository;
-        pizzaRepository = _pizzaRepository;
-        addressRepository = _addressRepository;
-    }
-    
-    public async Task CreateOrder(int UserId, int AddressId, List<string> Pizzas)
-    {
-        return;
+        User user = await userRepository.GetEntityAsync(userId);
+        
+        Address address = await addressRepository.GetEntityAsync(addressId);
+        
+        if(user == null) throw new UserNotFoundException("User not found");
+        if(address == null) throw new AddressNotFoundException("address not found");
+        if(address.UserId != userId) throw new UserAndAddressNotRelated("User and address are not related");
+        List<PizzaE> pizzaList = new List<PizzaE>();
+        
+        foreach (var pizza in pizzas)
+        {
+            PizzaE pizzaE = await pizzaRepository.GetPizzaByName(pizza);
+            pizzaList.Add(pizzaE);
+        }
+
+        Order order = new Order
+        {
+            Id = Guid.NewGuid(),
+            UserId = userId,
+            AddressId = addressId,
+            Pizzas = pizzaList,
+            IsDeleted = false,
+            CreatedOn = DateTime.UtcNow
+        };
+
+        await context.Set<Order>().AddAsync(order);
+        await context.SaveChangesAsync();
     }
 }

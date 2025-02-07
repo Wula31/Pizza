@@ -1,8 +1,9 @@
 ﻿namespace Pizza.Domain.Entities;
 
-public class RankHistory 
+public class RankHistory  
 {
-    public int UserId { get; set; }
+    public Guid Id { get; set; }
+    public Guid UserId { get; set; }
     public int Rank { get; set; }
-    public int PizzaId { get; set; }
+    public Guid PizzaId { get; set; }
 }
