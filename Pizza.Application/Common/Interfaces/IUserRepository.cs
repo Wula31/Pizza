@@ -3,7 +3,7 @@ namespace Pizza.Application.Common.Interfaces;
     
 public interface IUserRepository : IRepository<User>
 {
-    Task UpdateEntityAsync(User entity);
-    Task UpdateFieldAsync<T>(Guid id, string field, T value);
+    Task UpdateEntityAsync(User user, CancellationToken cancellationToken = default);
+    Task UpdateFieldAsync(Guid id, string field, string value, CancellationToken cancellationToken = default);
 
 }

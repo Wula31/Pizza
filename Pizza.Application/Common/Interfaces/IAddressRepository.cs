@@ -4,7 +4,7 @@ namespace Pizza.Application.Common.Interfaces;
 
 public interface IAddressRepository: IRepository<Address>
 {
-    Task UpdateEntityAsync(Address entity);
-    Task UpdateFieldAsync<T>(Guid id, string field, T value);
+    Task UpdateEntityAsync(Address address, CancellationToken cancellationToken = default);
+    Task UpdateFieldAsync(Guid id, string field, string value, CancellationToken cancellationToken = default);
 
 }

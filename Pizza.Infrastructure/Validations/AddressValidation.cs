@@ -11,10 +11,6 @@ public class AddressValidation: AbstractValidator<Address>
     public AddressValidation(IUserRepository userRepository)
     {
         
-        RuleFor(x => x.UserId)
-            .MustAsync(async (userId,_) => await userRepository.EntityExistsAsync(userId) 
-                                           && !await userRepository.EntityMarkedDeletedAsync(userId))
-            .WithMessage("User does not exist or is marked deleted");
         RuleFor(x => x.City)
             .NotEmpty().WithMessage("City is required")
             .MaximumLength(15).WithMessage("There can only be 15 characters in a city");
@@ -25,6 +21,10 @@ public class AddressValidation: AbstractValidator<Address>
             .MaximumLength(15).WithMessage("There can only be 15 characters in a region");
         RuleFor(x => x.Description)
             .MaximumLength(100).WithMessage("Description must be less than 100 characters");
+        RuleFor(x => x.UserId)
+            .MustAsync(async (userId,_) => await userRepository.EntityExistsAsync(userId) 
+                                           && !await userRepository.EntityMarkedDeletedAsync(userId))
+            .WithMessage("User does not exist or is marked deleted");
     }
 }
 

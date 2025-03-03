@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pizza.Domain", "Pizza.Domain\Pizza.Domain.csproj", "{A6B9CFDA-4B47-4197-8C01-698868EC0D2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pizza.Application", "Pizza.Application\Pizza.Application.csproj", "{0492FE4E-6D0D-42B1-A9D4-823C6BE512C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pizza.Infrastructure", "Pizza.Infrastructure\Pizza.Infrastructure.csproj", "{952CCAAD-07C5-476D-8012-FFB718890481}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pizza.Web", "Pizza.Web\Pizza.Web.csproj", "{C2F5AB22-645A-4C96-803F-E252CC7B47ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6B9CFDA-4B47-4197-8C01-698868EC0D2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6B9CFDA-4B47-4197-8C01-698868EC0D2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6B9CFDA-4B47-4197-8C01-698868EC0D2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6B9CFDA-4B47-4197-8C01-698868EC0D2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0492FE4E-6D0D-42B1-A9D4-823C6BE512C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0492FE4E-6D0D-42B1-A9D4-823C6BE512C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0492FE4E-6D0D-42B1-A9D4-823C6BE512C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0492FE4E-6D0D-42B1-A9D4-823C6BE512C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{952CCAAD-07C5-476D-8012-FFB718890481}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{952CCAAD-07C5-476D-8012-FFB718890481}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{952CCAAD-07C5-476D-8012-FFB718890481}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{952CCAAD-07C5-476D-8012-FFB718890481}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2F5AB22-645A-4C96-803F-E252CC7B47ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2F5AB22-645A-4C96-803F-E252CC7B47ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2F5AB22-645A-4C96-803F-E252CC7B47ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2F5AB22-645A-4C96-803F-E252CC7B47ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
