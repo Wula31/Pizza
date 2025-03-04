@@ -16,10 +16,4 @@
         <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="7.2.0" />
     </ItemGroup>
 
-    <ItemGroup>
-      <ProjectReference Include="..\Pizza.Application\Pizza.Application.csproj" />
-      <ProjectReference Include="..\Pizza.Domain\Pizza.Domain.csproj" />
-      <ProjectReference Include="..\Pizza.Infrastructure\Pizza.Infrastructure.csproj" />
-    </ItemGroup>
-
 </Project>
